@@ -13,7 +13,7 @@ Welcome to my portfolio! This project showcases my skills, projects, and experie
 - **Deployment:** Netlify  
 
 ## 📸 Preview  
-[Live Demo](https://yourportfolio.com)  
+[Live Demo](https://dev-shiv.netlify.app/)  
 
 ## 🔥 Getting Started  
 Clone the repository and run it locally
