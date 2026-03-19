@@ -1,88 +1,117 @@
-# 👨‍💻 Shivam Giri | Frontend Developer 🚀
-
-<p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=24&pause=1000&color=F70000&center=true&vCenter=true&width=600&lines=Frontend+Developer;React+%7C+JavaScript+Enthusiast;Building+Modern+Web+Experiences" alt="Typing SVG" />
-</p>
+# Shivam Giri | Portfolio Website
 
 <p align="center">
   <a href="https://dev-shiv.netlify.app/">
-    <img src="https://img.shields.io/badge/Portfolio-Live-red?style=for-the-badge&logo=netlify" />
+    <img src="https://img.shields.io/badge/Live%20Site-Netlify-red?style=for-the-badge&logo=netlify" alt="Live Site" />
   </a>
   <a href="https://www.linkedin.com/in/shivam-giri-56a65a193/">
-    <img src="https://img.shields.io/badge/LinkedIn-Connect-blue?style=for-the-badge&logo=linkedin" />
+    <img src="https://img.shields.io/badge/LinkedIn-Connect-blue?style=for-the-badge&logo=linkedin" alt="LinkedIn" />
   </a>
   <a href="mailto:shivamgiri.bit@gmail.com">
-    <img src="https://img.shields.io/badge/Email-Contact-grey?style=for-the-badge&logo=gmail" />
+    <img src="https://img.shields.io/badge/Email-Contact-grey?style=for-the-badge&logo=gmail" alt="Email" />
   </a>
 </p>
 
----
+## Overview
 
-## 🌟 About Me
+This repository contains a static personal portfolio and resume website for Shivam Giri.
+The site is built with HTML, CSS, and JavaScript, and uses jQuery-based UI plugins for animations, sliders, portfolio filtering, and layout interactions.
 
-I’m a passionate **Frontend Developer** focused on building fast, scalable, and user-friendly web applications.
-I enjoy turning complex problems into simple, beautiful, and intuitive designs.
+## Features
 
----
+- Responsive portfolio and resume layout
+- Single-page section-based navigation
+- Portfolio showcase with filtering
+- Testimonials and client carousels
+- Blog masonry section
+- Contact section with embedded Google Map
+- Downloadable resume
 
-## 🚀 Features
+## Tech Stack
 
-✨ Modern and responsive UI
-📱 Mobile-friendly design
-🧩 Project showcase section
-⚡ Fast performance
-📬 Contact integration
+### Core
 
----
+- HTML5
+- CSS3
+- JavaScript
+- jQuery 3.3.1
+- Bootstrap
 
-## 🛠️ Tech Stack
+### UI Libraries and Plugins
 
-<p>
-  <img src="https://skillicons.dev/icons?i=html,css,js,react" />
-</p>
+- Popper.js
+- Modernizr
+- Isotope
+- Macy
+- Owl Carousel
+- SimpleBar
+- Fitty
+- Tilt.js
+- jQuery Animated Headline
+- Page Transition plugin
+- jQuery Vide
+- jQuery SuperSlides
+- particles.js
+- jQuery.mb.YTPlayer
 
-* **Frontend:** HTML, CSS, JavaScript, React
-* **Deployment:** Netlify
+### Assets and Services
 
----
+- Google Fonts
+- Font Awesome
+- Linearicons
+- Google Analytics
+- Google Maps JavaScript API
+- Netlify for deployment
 
-## 📸 Live Preview
+## Project Structure
 
-🔗 https://dev-shiv.netlify.app/
-
----
-
-## 🧑‍💻 Getting Started
-
-```bash
-# Clone the repository
-git clone https://github.com/your-username/your-repo-name.git
-
-# Navigate to the folder
-cd your-repo-name
-
-# Install dependencies
-npm install
-
-# Run the project
-npm run dev
+```text
+.
+|-- index.html
+|-- blog-section.html
+|-- css/
+|-- js/
+|-- images/
+|-- img/
+|-- fonts/
+|-- favicons/
+`-- Shivam_Giri_Resume.pdf
 ```
 
----
+## Running Locally
 
-## 📬 Connect with Me
+This project does not require `npm install` or a frontend build step.
+You can run it locally in either of these ways:
 
-* 🔗 LinkedIn: https://www.linkedin.com/in/shivam-giri-56a65a193/
-* 📧 Email: [shivamgiri.bit@gmail.com](mailto:shivamgiri.bit@gmail.com)
+1. Open `index.html` directly in your browser.
+2. Serve the folder with a lightweight static server.
 
----
+Example:
 
-## ⭐ Support
+```bash
+python -m http.server 8000
+```
 
-If you like this project, give it a ⭐ on GitHub!
+Then open `http://localhost:8000`.
 
----
+## Deployment
 
-## 🧠 Fun Fact
+The site is suitable for static hosting providers such as:
 
-I love building interactive UI and exploring new frontend technologies 🚀
+- Netlify
+- GitHub Pages
+- Vercel static hosting
+
+## Live Preview
+
+https://dev-shiv.netlify.app/
+
+## Contact
+
+- LinkedIn: https://www.linkedin.com/in/shivam-giri-56a65a193/
+- Email: [shivamgiri.bit@gmail.com](mailto:shivamgiri.bit@gmail.com)
+
+## Notes
+
+- This repository is currently a static site, not a React/Vite application.
+- Some libraries are included as theme assets even if a few features are lightly used or commented out.
